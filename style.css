@@ -35,6 +35,68 @@
   margin-top: 1em;
 }
 
+.info {
+  margin-top: 3em;
+  background-color: white;
+  padding: 1em 20% 10em 20%;
+}
+
+.infomaincontent {
+  text-align: center;
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: bolder;
+}
+
+.infocontent {
+  margin-top: 3em;
+  display: flex;
+  justify-content: space-around;
+}
+
+.infobox {
+  border: 20px;
+  border-color: #517bf3;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+}
+
+.quotesec {
+  background-color: #e5e7eb;
+  margin-top: 3em;
+  padding: 10em 20% 10em 20%;
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1f2937;
+  text-align: center;
+}
+
+.quoteauth {
+  margin-right: 4em;
+  margin-top: 2em;
+  text-align: right;
+  color: #1f2937;
+}
+
+.secjoin {
+  display: float;
+  background-color: #517bf3;
+  margin: 10em 30% 10em 30%;
+  padding: 3em 4em;
+}
+
+.secjoinmain {
+  color: white;
+}
+
+.secjoinbtn {
+}
+
 ul {
   display: flex;
   justify-content: end;
@@ -53,6 +115,14 @@ ul li:first-child {
 
 img {
   margin-left: 2em;
-  width: 28em;
-  height: 25em;
+  width: 30em;
+  height: 18em;
+}
+
+footer {
+  background-color: #1f2937;
+  text-align: center;
+  color: white;
+  padding: 2em;
+  font-size: 12px;
 }
