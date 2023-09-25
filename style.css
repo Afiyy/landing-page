@@ -145,10 +145,19 @@ ul li:first-child {
   font-size: 24px;
 }
 
-img {
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #5a5a5a;
   margin-left: 2em;
   width: 36em;
   height: 18em;
+}
+
+.imagetxt {
+  text-align: center;
+  color: #e5e7eb;
 }
 
 footer {
