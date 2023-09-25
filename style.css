@@ -1,12 +1,38 @@
 * {
   font-family: "Roboto", sans-serif;
   margin: 0;
+  padding: 0;
 }
 
-body {
+.heromaintxt {
+  font-weight: bolder;
+  font-size: 48px;
+  color: #f9faf8;
+}
+
+.herosecontxt {
+  color: #e5e7eb;
+}
+
+.herocontent {
+  display: flex;
+  margin-top: 6em;
 }
 
 .hero {
+  background-color: #1f2937;
+  padding: 1em 20% 10em 20%;
+}
+
+.btn {
+  display: block;
+  background-color: #517bf3;
+  text-decoration: none;
+  color: #e5e7eb;
+  width: fit-content;
+  border-radius: 10px;
+  padding: 0.5em 2em 0.5em 2em;
+  margin-top: 1em;
 }
 
 ul {
@@ -15,8 +41,18 @@ ul {
   align-items: baseline;
   list-style: none;
   gap: 2em;
+  size: 18px;
+  color: #e5e7eb;
 }
 
 ul li:first-child {
   margin-right: auto;
+  color: #f9faf8;
+  size: 24px;
+}
+
+img {
+  margin-left: 2em;
+  width: 28em;
+  height: 25em;
 }
