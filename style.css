@@ -30,9 +30,14 @@
   text-decoration: none;
   color: #e5e7eb;
   width: fit-content;
-  border-radius: 10px;
+  border-radius: 8px;
   padding: 0.5em 2em 0.5em 2em;
   margin-top: 1em;
+}
+
+.btn:hover {
+  color: #e5e7eb94;
+  background-color: #517cf394;
 }
 
 .info {
@@ -84,17 +89,30 @@
 }
 
 .secjoin {
-  display: float;
+  display: flex;
+  justify-content: space-between;
+  row-gap: 10em;
+  border-radius: 8px;
   background-color: #517bf3;
-  margin: 10em 30% 10em 30%;
+  margin: 10em 20% 10em 20%;
   padding: 3em 4em;
 }
 
 .secjoinmain {
-  color: white;
+  color: #f9faf8;
+  font-size: large;
+  font-weight: bolder;
+}
+
+.secjoinsub {
+  color: #e5e7eb;
 }
 
 .secjoinbtn {
+  margin: 0;
+  padding: 0.5em 2em 0.5em 2em;
+  border: 2px solid white;
+  align-self: center;
 }
 
 ul {
