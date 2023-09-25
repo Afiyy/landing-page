@@ -12,6 +12,7 @@
 
 .herosecontxt {
   color: #e5e7eb;
+  margin-top: 1em;
 }
 
 .herocontent {
@@ -19,9 +20,13 @@
   margin-top: 6em;
 }
 
+.herotxt {
+  align-self: center;
+}
+
 .hero {
   background-color: #1f2937;
-  padding: 1em 20% 10em 20%;
+  padding: 1em 12% 10em 12%;
 }
 
 .btn {
@@ -43,7 +48,7 @@
 .info {
   margin-top: 3em;
   background-color: white;
-  padding: 1em 20% 10em 20%;
+  padding: 1em 12% 5em 12%;
 }
 
 .infomaincontent {
@@ -56,21 +61,30 @@
 .infocontent {
   margin-top: 3em;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 4em;
+}
+
+.infochild {
+  flex-basis: 10em;
+}
+
+.infotxt {
+  margin-top: 1em;
+  text-align: center;
+  color: #5a5a5a;
 }
 
 .infobox {
-  border: 20px;
-  border-color: #517bf3;
-  height: 50px;
-  width: 50px;
-  text-align: center;
+  border: 4px solid #517bf3;
+  border-radius: 10px;
+  height: 10em;
+  width: 10em;
 }
 
 .quotesec {
   background-color: #e5e7eb;
-  margin-top: 3em;
-  padding: 10em 20% 10em 20%;
+  padding: 5em 12% 5em 12%;
 }
 
 .quote {
@@ -94,8 +108,8 @@
   row-gap: 10em;
   border-radius: 8px;
   background-color: #517bf3;
-  margin: 10em 20% 10em 20%;
-  padding: 3em 4em;
+  margin: 5em 12% 5em 12%;
+  padding: 3em 8em;
 }
 
 .secjoinmain {
@@ -121,19 +135,19 @@ ul {
   align-items: baseline;
   list-style: none;
   gap: 2em;
-  size: 18px;
+  font-size: 18px;
   color: #e5e7eb;
 }
 
 ul li:first-child {
   margin-right: auto;
   color: #f9faf8;
-  size: 24px;
+  font-size: 24px;
 }
 
 img {
   margin-left: 2em;
-  width: 30em;
+  width: 36em;
   height: 18em;
 }
 
@@ -142,5 +156,4 @@ footer {
   text-align: center;
   color: white;
   padding: 2em;
-  font-size: 12px;
 }
